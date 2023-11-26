@@ -1,0 +1,661 @@
+@import url('https://fonts.googleapis.com/css2?family=Island+Moments&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'kano',sans-serif !important;
+    border: none;
+    outline: none;
+}
+body{
+    background: black;
+}
+::-webkit-scrollbar{
+    width: 6px;
+    background: white;
+}
+::-webkit-scrollbar-thumb{
+    background: rgb(99, 0, 0);
+}
+.header{
+    width: 100%;
+    height: 120px;
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header .logo img{
+    margin-left: 100px;
+}
+.header .text{
+    display: flex;
+    margin-right: 241px;
+}
+.header .text h3{
+    margin-left: 50px;
+    color: white;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: sans-serif;
+}
+.header .contact button{
+    height: 22px;
+    width: 23px;
+    cursor: pointer;
+    color: white;
+    margin-left: 10px;
+    background: #C6100F;
+}
+.header .vutton button{
+    background: #C6100F;
+    border-radius: 4px;
+    height: 43px;
+    width: 122px;
+    color: white;
+    font-family: sans-serif;
+    margin-right: 85px;
+    cursor: pointer;
+}
+.header .contact {
+    display: flex;
+    margin-left: 279px;
+}
+.content {
+    display: flex;
+}
+.content .context h1{
+    color: white;
+    font-size: 79px;
+    margin-top: 58px;
+    margin-left: 88px;
+    font-family: sans-serif;
+}
+.content .marker h2{
+    color: white;
+    font-family: 'Roboto';
+    transform: rotate(90deg);
+    font-size: 13px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 28px;
+
+}
+.content .marker img{
+    margin-left: 21px;
+    margin-top: 70px;
+}
+.content .marker{
+    margin-left: 490px;
+    margin-top: -27px;
+}
+.ikon button {
+    width: 43px;
+    background: #191B25;
+    border-radius: 5px;
+    height: 38px;
+    margin-left: 1200px;
+    margin-top: 59px;
+}
+.katta{
+    margin: 59px;
+    margin-top: 94px;
+}
+
+.num{
+    display: flex;
+    justify-content: space-between;
+}
+.num .numtext h3{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    margin-left: 254px;
+    font-size: 80px;
+    line-height: 88px;
+    margin-top: 17px;
+}
+.num .numlorem p{
+    color: white;
+    font-family: 'Roboto';
+    margin-right: 271px;
+    margin-top: 90px;
+}
+.num .numlorem h3{
+    color: white;
+    font-family: 'Roboto';
+    margin-right: 244px;
+    margin-top: 39px;
+}
+.num .numlorem button{
+    color: white;
+    background: #C6100F;
+    border-radius: 4px;
+    width: 163px;
+    height: 40px;
+    font-family: 'Roboto';
+    margin-top: 22px;
+cursor: pointer;
+}
+.mean{
+    text-align: center;
+    color: white;
+}
+.mean .meantext h3{
+    font-family: 'Roboto';
+    margin-top: 130px;
+}
+.mean .meanimg img{
+    margin-left: 82px;
+    margin-top: 56px;
+}
+.mean .meanimg{
+    margin-right: 76px;
+}
+.mean .meanjust h3{
+    color: white;
+    font-family: 'Roboto';
+    margin-top: 51px;
+    margin-left: 10px;
+}
+.lust .lusttur h2{
+    color: white;
+    text-align: center;
+    margin-top: 112px;
+    font-size: 72px;
+    font-family: 'Roboto';
+}
+.lust .lusted img{
+    margin-left: -4px;
+    margin-top: 30px;
+}
+.lust .div{
+    width: 100%;
+    height: 61px;
+    margin-top: -4px;
+    background: #C6100F;
+}
+.lust .div .divin h2{
+    color: white;
+    font-family: 'Roboto';
+    text-align: center;   
+    padding-top: 13px;
+}
+.loki .look h3{
+    color: white;
+    font-family: 'Roboto';
+    font-size: 80px;
+    margin: 100px;
+}
+.loki .blocks{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.loki .blocks .up  img{
+    height: 337px;
+    width: 300px;
+    cursor: pointer;
+}
+
+.ber .bret h2{
+    color: white;
+    font-family: 'Roboto';
+    text-align: center;
+    margin-top: 100px;
+    font-size: 41px;
+}
+.ber .berimg img{
+    margin-left: 591px;
+    margin-top: 27px;
+}
+.ber .berimg p{
+    color: white;
+    font-family: 'Roboto';
+    text-align: center;
+    margin-top: 20px;
+}
+.ber .berimg h4{
+    color: rgba(255, 255, 255, 0.7);
+    font-family: 'Roboto';
+    text-align: center;
+    font-size: 9px;
+    margin-top: 20px;
+}
+.ber .bber{
+    margin-left: 609px;
+    display: flex;
+    margin-top: 18px;
+}
+.ber .bber .kill{
+    width: 6px;
+    height: 6px;
+    margin-left: 10px;
+    background: rgba(255, 255, 255, 0.4);
+}
+.conta{
+    display: flex;
+    justify-content: space-evenly;
+}
+.conta .inputs .inp h2{
+    color: white;
+    margin: 157px;
+    font-family: 'Roboto';
+    font-size: 58px;
+}
+.conta .inputs  .hein h3{
+    color: white;
+    font-family: 'Roboto';
+    font-size: 28px;
+    margin-top: 29px;
+}
+.conta .inputs .hein .google{
+    height: 2px;
+width: 396px;
+background: #C6100F;
+margin-top: 5px;
+
+}
+
+.conta .inputs .hein .google1{
+    height: 2px;
+width: 203px;
+background: #C6100F;
+margin-top: 5px;
+
+}
+
+.conta .inputs .hein .google2{
+    height: 2px;
+width: 347px;
+background: #C6100F;
+margin-top: 5px;
+
+}
+
+.conta .inputs .hein .google3{
+    height: 2px;
+width: 495px;
+background: #C6100F;
+margin-top: 5px;
+}
+.conta .inputs .hein{
+    margin-left: 151px;
+    margin-top: -78px;
+}
+
+.conta .inputs .hein h4{
+    color: rgba(255, 255, 255, 0.8);
+    font-family: 'Roboto';
+    margin-top: 24px;
+}
+.conta .inputs .hein  h2{
+   
+    color: white;
+    font-size: 17px;
+    margin-left: 460px;
+    font-family: 'Roboto';
+
+}
+.conta .conimg .vanin img{
+    margin-top: 226px;
+    border-radius: 5px;
+}
+.many .mayntext h2{
+    color: white;
+    font-family: 'Roboto';
+    text-align: center;
+    margin-top: 205px;
+    font-size: 45px;
+}
+.many .manyvlog{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 124px;
+}
+.many .manyvlog .velote h3{
+    color: white;
+    margin-left: 18px;
+    font-size: 25px;
+    font-family: 'Roboto';
+}
+.many .manyvlog .vanik{
+    display: flex;
+}
+
+.many .manyvlog .vanik1{
+    display: flex;
+}
+.many .manyvlog .velote h5{
+    color: rgba(255, 255, 255, 0.8);
+
+    margin-left: 18px;
+    font-family: 'Roboto';
+    margin-top: 4px;
+}
+
+.containe1{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 20px 100px;
+    margin-top: 170px;
+}
+
+.contact-box{
+	max-width: 850px;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+
+}
+
+.left{
+	background: url("../gj\,.png");
+	background-size: cover;
+	height: 100%;
+    cursor: pointer;
+}
+
+
+.right{
+	padding: 25px 40px;
+}
+
+h2{
+	position: relative;
+	padding: 0 0 10px;
+	margin-bottom: 10px;
+}
+
+
+.field{
+	width: 100%;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+	outline: none;
+	background-color:  #12141D;
+	padding: 0.5rem 1rem;
+	font-size: 1.1rem;
+	margin-bottom: 22px;
+	transition: .3s;
+}
+
+
+
+textarea{
+	min-height: 150px;
+}
+
+.btn{
+	width: 100%;
+	padding: 0.5rem 1rem;
+	background-color: #C6100F;
+	color: #fff;
+	font-size: 1.1rem;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	transition: .3s;
+}
+.nike{
+    width: 100%;
+    height: 169px;
+    background: #C6100F;
+    margin-top: 100px;
+}
+.nike h2{
+    color: white;
+    font-size: 62px;
+    font-family: 'Roboto';
+    padding-top: 36px;
+}
+.footer .foo {
+    margin: 65px 186px;
+}
+.footer .foo h3{
+    
+    color: rgba(255, 255, 255, 0.8);
+    font-family: 'Roboto';
+    font-size: 14px;
+    margin-top: 11px;
+
+}
+.footer .foo ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto';
+    margin-left: 20px;
+}
+.footer .foo ul li {
+    display: inline-block;
+}
+.footer .foo ul{
+    margin-top: 30px;
+    margin-left: -23px;
+}
+.footer .foo h4{
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: 47px;
+    font-family: 'Roboto';
+}
+.footer .foo h4 span{
+    color: white;
+}
+.footer {
+    display: flex;
+}
+.footer .textturekin img{
+    transform: rotate(-92deg);
+    margin-left: 15px;
+}
+.footer .textturekin{
+    display: flex;
+    margin-top: 80px;
+}
+.footer .textturekin h2{
+    color: white;
+    font-size: 16px;
+    margin-left: 12px;
+
+}
+.footer .textturekin h3{
+    color: white;
+    margin-top: 43px;
+    margin-left: -130px;
+    font-family: 'Roboto';
+}
+.footer .textturekin h4{
+    color: white;
+    font-family: 'Roboto';
+    margin-top: 85px;
+    margin-left: -134px;
+}
+
+
+
+
+
+@media  (max-width: 926px) {
+    .loki .blocks {
+       flex-direction: column;
+       margin-left: 100px;
+    }
+    .loki .look h3{
+        font-size: 56px;
+    }
+    .ber .berimg img{
+        margin-left: 201px;
+    }
+    .ber .bber{
+        margin-left: 220px;
+    }
+  }
+  @media  (max-width: 1136px){
+ .conta {
+    flex-direction: column;
+ }
+ .conta .inputs .inp h2{
+    font-size: 45px;
+ }
+ .conta .inputs .hein h3{
+    font-size: 20px;
+ }
+ .conta .inputs .hein .google{
+    width: 296px;
+ }
+ .conta .inputs .hein .google1{
+    width: 103px;
+ }
+ .conta .inputs .hein .google2{
+    width:  247px;
+ }
+ .conta .inputs .hein .google3{
+    width: 395px;
+ }
+ .conta .inputs .hein{
+    margin-left: 33px;
+ }
+ .conta .inputs .hein h2{
+    margin-left: 402px;
+ }
+ .conta .conimg .vanin img{
+    margin-left: 23px;
+    margin-top: 61px;
+ }
+
+  }
+
+
+  @media  (max-width: 771px){
+    .many .manyvlog .vanik{
+        flex-wrap: wrap;
+    }
+    .many .manyvlog .velote h3{
+        margin-left: 13px;
+    }
+    .vanik .velo img{
+        margin-left: 3px;
+        margin-top: -67px;
+    
+    }
+    .lust .lusted img{
+        width: 500px;
+        margin-top: -6px;
+    }
+    .nike h2{
+        font-size: 24px
+    }
+    .nike{
+        height: 92px;
+    }
+    .owl-carousel .owl-item img{
+        width: 88%;
+    }
+    .num .numlorem h3{
+        font-size: 13px;
+        margin-left: 3px;
+        margin-right: 10px;
+    }
+    .num .numlorem p{
+        margin-right: -161px;
+    font-size: 12px;
+    }
+    .num .numtext h3{
+        font-weight: 400;
+        margin-left: 58px;
+        font-size: 40px;
+        line-height: 53px;
+        margin-top: 71px;
+    }
+    .containe1 .contact-box .right .field{
+        width: 378%;
+    padding: 0.5rem 1rem;
+
+    color: #fff;
+    font-size: 1.1rem;
+    border: none;
+    margin-left: -161px;
+    outline: none;
+    cursor: pointer;
+    transition: .3s;
+    }
+
+    .containe1 .contact-box .right .btn{
+    width: 308px;
+    margin-left: -162px;
+    }
+    .containe1 .contact-box .left{
+        background: none;
+    }
+    .content .marker{
+        margin-left: 119px;
+        margin-top: -27px;
+    }
+    .content .context h1{
+        font-size: 51px;
+        margin-top: 96px;
+        margin-left: 47px;
+    }
+    .contact{
+      
+    margin-right: -381px;
+
+    }
+    .header .logo img{
+        margin-left: 27px;
+    }
+    .header .img{
+        display: none;
+    }
+    .header .text h3{
+        font-size: 7px;
+    }
+    .header .vutton button{
+        height: 36px;
+        width: 103px;
+    }
+    .contact img{
+        display: none;
+    }
+    .header .contact button{
+        display: none;
+    }
+    .ikon button{
+        display: none;
+    }
+    .footer .foo{
+        margin: 65px 25px;
+    }
+    .footer .foo ul li a{
+        font-size: 7px;
+    }
+    .footer .foo h4{
+        font-size: 10px;
+    }
+    .footer .foo h3{
+        font-size: 8px;
+    }
+    .footer .textturekin h3{
+        margin-left: -84px;
+        font-size: 11px;
+    }
+    .footer .textturekin h4{
+        margin-top: 69px;
+        font-size: 9px;
+        margin-left: -74px;
+    }
+    .footer .textturekin h2{
+        margin-top: 5px;
+        font-size: 6px;
+    }
+    .footer .textturekin img{
+        width: 12px;
+    }
+  }
+  
